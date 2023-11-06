@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecasting</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link href="https://.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <table>
+        <caption>Forecast for the next 48 hours</caption>
+        <tr>
+            <td class="day"></td>
+            <td colspan="2" class="day">Friday</td>
+            <td colspan="4" class="day">Saturday</td>
+            <td colspan="2" class="day">Sunday</td>
+        </tr>
+        <tr>
+            <td class="session"></td>
+            <td class="session">Afternoon</td>
+            <td class="session">Evening</td>
+            <td class="session">Night</td>
+            <td class="session">Morning</td>
+            <td class="session">Afternoon</td>
+            <td class="session">Evening</td>
+            <td class="session">Night</td>
+        </tr>
+        <tr>
+            <td class="topic">Forecast</td>
+            <td><img src="assets/cloudy.png" alt="" height="40px" width="40px"></td>
+            <td><img src="assets/thunderstorm.png" alt="" height="40px" width="40px"></td>
+            <td><img src="assets/thunderstorm.png" alt="" height="40px" width="40px"></td>
+            <td><img src="assets/cloudy.png" alt="" height="40px" width="40px"></td>
+            <td><img src="assets/cloudy.png" alt="" height="40px" width="40px"></td>
+            <td><img src="assets/thunderstorm.png" alt="" height="40px" width="40px"></td>
+            <td><img src="assets/thunderstorm.png" alt="" height="40px" width="40px"></td>
+        </tr>
+        <tr class="clr">
+            <td class="topic">Temperature</td>
+            <td>26 <span>&#8451;</span></td>
+            <td>24 <span>&#8451;</span></td>
+            <td>23 <span>&#8451;</span></td>
+            <td>26 <span>&#8451;</span></td>
+            <td>29 <span>&#8451;</span></td>
+            <td>24 <span>&#8451;</span></td>
+            <td>23 <span>&#8451;</span></td>
+        </tr>
+        <tr>
+            <td class="topic"></td>
+            <td>Passing <br>shower. <br>Overcast.</td>
+            <td>Passing <br>shower. <br>Overcast.</td>
+            <td>Passing <br>shower. <br>Overcast.</td>
+            <td>Passing <br>shower. <br>Overcast.</td>
+            <td>Passing <br>shower. <br>Overcast.</td>
+            <td>Passing <br>shower. <br>Overcast.</td>
+            <td>Passing <br>shower. <br>Overcast.</td>
+        </tr>
+        <tr class="clr">
+            <td class="topic">Feels Like</td>
+            <td>27 <span>&#8451;</span></td>
+            <td>23 <span>&#8451;</span></td>
+            <td>22 <span>&#8451;</span></td>
+            <td>27 <span>&#8451;</span></td>
+            <td>33 <span>&#8451;</span></td>
+            <td>24 <span>&#8451;</span></td>
+            <td>23 <span>&#8451;</span></td>
+        </tr>
+        <tr>
+            <td class="topic">Wind Speed</td>
+            <td>23 km/hr</td>
+            <td>17 km/hr</td>
+            <td>16 km/hr</td>
+            <td>17 km/hr</td>
+            <td>24 km/hr</td>
+            <td>20 km/hr</td>
+            <td>17 km/hr</td>
+        </tr>
+        <tr class="direction clr">
+            <td class="topic">Wind Direction</td>
+            <td>SW<br><span>&#8599;</span></td>
+            <td>SW<br><span>&#8599;</span></td>
+            <td>SW<br><span>&#8599;</span></td>
+            <td>SW<br><span>&#8599;</span></td>
+            <td>SW<br><span>&#8599;</span></td>
+            <td>SW<br><span>&#8599;</span></td>
+            <td>SW<br><span>&#8599;</span></td>
+        </tr>
+        <tr>
+            <td class="topic">Humidity</td>
+            <td>80%</td>
+            <td>88%</td>
+            <td>91%</td>
+            <td>80%</td>
+            <td>66%</td>
+            <td>85%</td>
+            <td>88%</td>
+        </tr>
+        <tr class="clr">
+            <td class="topic">Dew Point</td>
+            <td>22 <span>&#8451;</span></td>
+            <td>22 <span>&#8451;</span></td>
+            <td>21 <span>&#8451;</span></td>
+            <td>22 <span>&#8451;</span></td>
+            <td>22 <span>&#8451;</span></td>
+            <td>22 <span>&#8451;</span></td>
+            <td>21 <span>&#8451;</span></td>
+        </tr>
+        <tr>
+            <td class="topic">Visibility</td>
+            <td>10 km</td>
+            <td>7 km</td>
+            <td>8 km</td>
+            <td>10 km</td>
+            <td>11 km</td>
+            <td>12 km</td>
+            <td>11 km</td>
+        </tr>
+        <tr class="clr">
+            <td class="topic">Probability of Precipitation</td>
+            <td>43%</td>
+            <td>30%</td>
+            <td>30%</td>
+            <td>0%</td>
+            <td>37%</td>
+            <td>34%</td>
+            <td>28%</td>
+        </tr>
+        <tr>
+            <td class="topic">Amount of Rain</td>
+            <td>0.8 mm</td>
+            <td>0.6 mm</td>
+            <td>0.6 mm</td>
+            <td>0.2 mm</td>
+            <td>0.6 mm</td>
+            <td>0.6 mm</td>
+            <td>0.6 mm</td>
+        </tr>
+        <tr>
+            <td colspan="8">*Upload Friday, 8 September 2023 12:58:09 Coimbatore time - Weather by CustomerWeather, <i class="fa fa-copyright" aria-hidden="true"></i> 2023</td>
+        </tr>
+    </table>
+</body>
+</html>
